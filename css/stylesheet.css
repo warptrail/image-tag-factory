@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #7C989A;
+}
+
+.introduction {
+    text-align: center;
+}
+
+.introduction > * {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.introduction p {
+    width: 70%;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+.container {
+    background-color: #4F6062;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container form > * {
+    margin: 10px;
+}
+
+.container form .row {
+    display: flex;
+}
+.container form .row label {
+    width: 80px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+input {
+    width: 80%;
+    background-color: #A7BDBF;
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+}
+
+#submit {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: teal;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.output {
+    background-color: #1D1F21;
+    color: #4ED90D;
+    font-family: 'Fira Code', monospace;
+    padding: 10px 20px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Tag Factory</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is what search sees">
+    <link rel="icon" href="img/icon-default.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <div class="application">
+        <article class="introduction">
+            <h1>Image Tag Factory</h1>
+            <a href="https://www.google.com/" target="_blank"><img src="img/icon-default.ico" alt="default icon"
+                    class="icon"></a>
+            <p>Generate a bulk load of img elements in sync with your file naming conventions.</p>
+        </article>
+
+        <div class="container">
+            <form id="inputForm">
+                <div class="row">
+                    <label for="src">img src</label>
+                    <input id="src" name="src" type="text">
+                </div>
+                <div class="row">
+                    <label for="src-ext">src ext</label>
+                    <input id="srcExt" name="src-ext" type="text">
+                </div>
+                <div class="row">
+                    <label for="href">a href</label>
+                    <input id="href" name="href" type="text">
+                </div>
+                <div class="row">
+                    <label for="alt">img alt</label>
+                    <input id="alt" name="alt" type="text">
+                </div>
+                <div class="row">
+                    <label for="class">img class</label>
+                    <input id="class" name="class" type="text">
+                </div>
+                <div class="row">
+                    <label for="iterations">iterate</label>
+                    <input name="iterations" id="iterations" type="number" min='1' value="1">
+                </div>
+                <div class="row">
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </form>
+
+            <div class="output">
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
